@@ -1,4 +1,4 @@
-# fmt-str
+# fmt-it
 
 A format string tool.
 
