@@ -12,9 +12,6 @@ devDependencies:
   '@antfu/eslint-config-ts':
     specifier: ^0.38.6
     version: 0.38.6(eslint@8.40.0)(typescript@5.0.4)
-  '@types/deep-freeze-strict':
-    specifier: ^1.1.0
-    version: 1.1.0
   '@types/pluralize':
     specifier: ^0.0.29
     version: 0.0.29
@@ -436,10 +433,6 @@ packages:
 
   /@types/chai@4.3.5:
     resolution: {integrity: sha512-mEo1sAde+UCE6b2hxn332f1g1E8WfYRu6p5SvTKr2ZKC1f7gFJXk4h5PyGP9Dt6gCaG8y8XhwnXWC6Iy2cmBng==}
-    dev: true
-
-  /@types/deep-freeze-strict@1.1.0:
-    resolution: {integrity: sha512-fILflsS66kGQ4iIBzYoxuQCWK1wQdy/ooguTofUk0KSxA+G5ZzH8WdU8mf6IU+5cMBW+j9u+eh+7kv63R3O9Tw==}
     dev: true
 
   /@types/json-schema@7.0.11:
