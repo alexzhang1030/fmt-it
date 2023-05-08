@@ -22,8 +22,8 @@
   "scripts": {
     "lint": "eslint .",
     "build": "tsup",
-    "prepublishOnly": "pnpm run test && pnpm run build",
-    "release": "bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish",
+    "prepublishOnly": "pnpm run build",
+    "release": "vitest -r && bumpp --commit \"chore: release v%s\" --push --tag && pnpm publish",
     "prepare": "simple-git-hooks",
     "test": "vitest"
   },
