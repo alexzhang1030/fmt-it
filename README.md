@@ -2,6 +2,17 @@
 
 A format string tool.
 
+- [fmt-it](#fmt-it)
+  - [Types](#types)
+  - [Utilities](#utilities)
+    - [1. `camelCase`](#1-camelcase)
+    - [2. `pluralize`](#2-pluralize)
+    - [3. `singularize`](#3-singularize)
+    - [4. `addSpace`](#4-addspace)
+    - [5. `pascalCase`](#5-pascalcase)
+  - [helper](#helper)
+    - [1. `pipeFmt`](#1-pipefmt)
+
 ## Types
 
 ```ts
@@ -27,6 +38,18 @@ function pluralize(input: AllowingInput, count?: number): string
 
 ```ts
 function singularize(input: AllowingInput): string
+```
+
+### 4. `addSpace`
+
+```ts
+function addSpace(input: AllowingInput): string
+```
+
+### 5. `pascalCase`
+
+```ts
+function pascalCase(input: AllowingInput): string
 ```
 
 ## helper

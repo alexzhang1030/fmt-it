@@ -1,7 +1,7 @@
 import { expect, test } from 'vitest'
-import { camelCase } from '../utilities/camelCase'
-import { pluralize } from '../utilities/pluralize'
-import { singularize } from '../utilities/singularize'
+import {
+  addSpace, camelCase, pascalCase, pluralize, singularize,
+} from '../'
 
 test('camelCase', () => {
   const testCases = [
@@ -39,5 +39,26 @@ test('singularize', () => {
   ]
   testCases.forEach(([input, expected]) => {
     expect(singularize(input)).toBe(expected)
+  })
+})
+
+test('addSpace', () => {
+  const testCases = [
+    ['fooBar', 'foo Bar'],
+    ['FooBarBaz', 'Foo Bar Baz'],
+  ]
+  testCases.forEach(([input, expected]) => {
+    expect(addSpace(input)).toBe(expected)
+  })
+})
+
+test('pascalCase', () => {
+  const testCases = [
+    ['foo_bar', 'FooBar'],
+    ['foo-bar', 'FooBar'],
+    ['fooBar', 'FooBar'],
+  ]
+  testCases.forEach(([input, expected]) => {
+    expect(pascalCase(input)).toBe(expected)
   })
 })
