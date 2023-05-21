@@ -35,16 +35,14 @@
     "prepare": "simple-git-hooks",
     "test": "vitest"
   },
-  "dependencies": {
-    "camelcase": "^7.0.1",
-    "pluralize": "^8.0.0"
-  },
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.38.6",
     "@types/pluralize": "^0.0.29",
     "bumpp": "^9.1.0",
+    "camelcase": "^7.0.1",
     "eslint": "^8.40.0",
     "lint-staged": "^13.2.2",
+    "pluralize": "^8.0.0",
     "simple-git-hooks": "^2.8.1",
     "tsup": "^6.7.0",
     "vitest": "^0.31.0"
