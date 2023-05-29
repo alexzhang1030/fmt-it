@@ -2,7 +2,7 @@
   "name": "fmt-it",
   "type": "module",
   "version": "0.4.0",
-  "packageManager": "pnpm@8.5.1",
+  "packageManager": "pnpm@8.6.0",
   "description": "Format string tool.",
   "author": "alexzhang1030",
   "license": "MIT",
@@ -36,7 +36,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@antfu/eslint-config-ts": "^0.39.1",
+    "@antfu/eslint-config-ts": "^0.39.3",
     "@types/pluralize": "^0.0.29",
     "bumpp": "^9.1.0",
     "camelcase": "^7.0.1",
