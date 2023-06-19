@@ -44,7 +44,7 @@
     "lint-staged": "^13.2.2",
     "pluralize": "^8.0.0",
     "simple-git-hooks": "^2.8.1",
-    "tsup": "^6.7.0",
+    "tsup": "^7.0.0",
     "vitest": "^0.32.0"
   },
   "simple-git-hooks": {
