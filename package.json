@@ -2,7 +2,7 @@
   "name": "fmt-it",
   "type": "module",
   "version": "0.4.0",
-  "packageManager": "pnpm@8.15.7",
+  "packageManager": "pnpm@9.0.5",
   "description": "Format string tool.",
   "author": "alexzhang1030",
   "license": "MIT",
