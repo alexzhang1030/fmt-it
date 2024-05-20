@@ -40,7 +40,7 @@
     "@types/pluralize": "^0.0.33",
     "bumpp": "^9.4.1",
     "camelcase": "^8.0.0",
-    "eslint": "^9.2.0",
+    "eslint": "^9.3.0",
     "lint-staged": "^15.2.2",
     "pluralize": "^8.0.0",
     "simple-git-hooks": "^2.11.1",
