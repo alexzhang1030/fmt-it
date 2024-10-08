@@ -2,7 +2,7 @@
   "name": "fmt-it",
   "type": "module",
   "version": "0.4.0",
-  "packageManager": "pnpm@9.11.0",
+  "packageManager": "pnpm@9.12.1",
   "description": "Format string tool.",
   "author": "alexzhang1030",
   "license": "MIT",
@@ -40,12 +40,12 @@
     "@types/pluralize": "^0.0.33",
     "bumpp": "^9.6.1",
     "camelcase": "^8.0.0",
-    "eslint": "^9.11.1",
+    "eslint": "^9.12.0",
     "lint-staged": "^15.2.10",
     "pluralize": "^8.0.0",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.3.0",
-    "vitest": "^2.1.1"
+    "vitest": "^2.1.2"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm exec lint-staged"
