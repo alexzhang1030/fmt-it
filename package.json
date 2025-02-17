@@ -38,9 +38,9 @@
   "devDependencies": {
     "@antfu/eslint-config-ts": "^0.43.1",
     "@types/pluralize": "^0.0.33",
-    "bumpp": "^10.0.1",
+    "bumpp": "^10.0.3",
     "camelcase": "^8.0.0",
-    "eslint": "^9.19.0",
+    "eslint": "^9.20.1",
     "lint-staged": "^15.4.3",
     "pluralize": "^8.0.0",
     "simple-git-hooks": "^2.11.1",
