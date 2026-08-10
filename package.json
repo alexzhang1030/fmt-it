@@ -57,13 +57,5 @@
   },
   "eslintConfig": {
     "extends": "@antfu/eslint-config-ts"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@swc/core",
-      "esbuild",
-      "simple-git-hooks",
-      "unrs-resolver"
-    ]
   }
 }
