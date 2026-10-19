@@ -39,7 +39,7 @@
     "@antfu/eslint-config-ts": "^0.43.1",
     "@types/pluralize": "^0.0.33",
     "bumpp": "^12.3.0",
-    "camelcase": "^9.0.0",
+    "camelcase": "^10.0.0",
     "eslint": "^10.13.0",
     "lint-staged": "^17.6.0",
     "pluralize": "^8.0.0",
